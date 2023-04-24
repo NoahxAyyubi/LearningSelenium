@@ -4,6 +4,7 @@ import org.testng.annotations.DataProvider;
 
 public class DataForTest {
 
+    // comment
     @DataProvider
     public Object[][] getSearchTestData() {
         return new Object[][]{{"java books"}, {"selenium books"}};
