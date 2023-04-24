@@ -18,6 +18,7 @@ public class DBConnection {
             bookNamesList.add(rs.getString("productName"));}
 
     }
+    //hello
     public static ResultSet getResultSet(String query) throws IOException, SQLException {
         String url = PropertiesFile.getInfo("db.url");
         String username = PropertiesFile.getInfo("db.username");
