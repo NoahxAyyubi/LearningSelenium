@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://www.ebay.com/"/>
+    <parameter name="cloud" value="true"/>
+    <parameter name="os" value="windows"/>
+
+    <test name="Automation Tests">
+
+        <!-- <groups>
+             <run>
+                 <include name="regression"/>
+             </run>
+         </groups>-->
+
+        <!-- <packages>
+             <package name="com.woa.test.*"></package>
+         </packages>-->
+
+        <classes>
+            <class name="com.woa.test.EbayTest">
+                <!-- <methods>
+                     <include name="validateAUserCanSearchForSpecificData"/>
+                 </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
